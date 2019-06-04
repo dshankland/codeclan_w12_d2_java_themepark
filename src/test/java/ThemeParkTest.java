@@ -4,7 +4,6 @@ import parkfun.ThemePark;
 import parkfun.Visitor;
 import parkfun.attractions.Rollercoaster;
 import parkfun.stalls.CandyFlossStall;
-import parkfun.stalls.Stall;
 import parkfun.stalls.TobaccoStall;
 
 import static org.junit.Assert.assertEquals;
@@ -27,8 +26,8 @@ public class ThemeParkTest {
         themepark.addAttraction(rollerCoaster);
         themepark.addStalls(candyFlossStall);
         themepark.addStalls(tobaccoStall);
-        visitor1 = new Visitor(12, 1.0, 2.00);
-        visitor2 = new Visitor(18, 1.6, 5.00);
+        visitor1 = new Visitor(12, 1.0, 20.00);
+        visitor2 = new Visitor(18, 1.6, 25.00);
     }
 
     @Test
