@@ -1,3 +1,5 @@
+package parkfun;
+
 public class Visitor {
 
     private int age;

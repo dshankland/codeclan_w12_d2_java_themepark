@@ -1,4 +1,4 @@
-import Stalls.CandyFlossStall;
+import parkfun.stalls.CandyFlossStall;
 import org.junit.Before;
 import org.junit.Test;
 

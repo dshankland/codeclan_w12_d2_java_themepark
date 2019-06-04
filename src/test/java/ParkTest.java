@@ -1,7 +1,6 @@
-import Attractions.Dodgems;
-import Attractions.Park;
 import org.junit.Before;
 import org.junit.Test;
+import parkfun.attractions.Park;
 
 import static org.junit.Assert.assertEquals;
 

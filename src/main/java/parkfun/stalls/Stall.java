@@ -1,10 +1,11 @@
-package Stalls;
+package parkfun.stalls;
 
 public abstract class Stall {
 
     private String name;
     private String ownerName;
     private boolean parkingSpot;
+    int rating;
 
     public Stall(String name, String ownerName, boolean parkingSpot) {
         this.name = name;

@@ -1,4 +1,4 @@
-package Attractions;
+package parkfun.attractions;
 
 public class Rollercoaster extends Attraction{
 

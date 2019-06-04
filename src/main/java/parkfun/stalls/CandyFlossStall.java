@@ -1,4 +1,4 @@
-package Stalls;
+package parkfun.stalls;
 
 public class CandyFlossStall extends Stall {
 
