@@ -5,17 +5,18 @@ import parkfun.IReviewed;
 public abstract class Attraction implements IReviewed {
 
     private String name;
-    int rating;
+    private int rating;
 
-    public Attraction(String name) {
+    public Attraction(String name, int rating) {
         this.name = name;
+        this.rating = rating;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getRating() {
-        return rating;
+        return this.rating;
     }
 }

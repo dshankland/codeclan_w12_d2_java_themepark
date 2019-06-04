@@ -15,7 +15,7 @@ public class PlaygroundTest {
     public void setUp() {
         visitor1 = new Visitor(12, 1.0, 2.00);
         visitor2 = new Visitor(18, 1.6, 5.00);
-        attractionInstance = new Playground("Codeclan Soft Play");
+        attractionInstance = new Playground("Codeclan Soft Play", 4);
     }
 
     @Test
@@ -32,4 +32,10 @@ public class PlaygroundTest {
     public void cannotUseAttraction() {
         assertEquals(false, attractionInstance.isAllowedTo(visitor2));
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(4, attractionInstance.getRating());
+    }
+
 }

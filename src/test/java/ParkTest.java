@@ -10,11 +10,17 @@ public class ParkTest {
 
     @Before
     public void setUp() {
-        attractionInstance = new Park("Codeclan Themepark");
+        attractionInstance = new Park("Codeclan Themepark", 2);
     }
 
     @Test
     public void hasName() {
         assertEquals("Codeclan Themepark", attractionInstance.getName());
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(2, attractionInstance.getRating());
+    }
+
 }
